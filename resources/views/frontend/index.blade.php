@@ -14,6 +14,9 @@
 
                 <div class="panel-body">
                     {{ trans('strings.frontend.welcome_to', ['place' => app_name()]) }}
+                    <select name="aaa" style="width:300px">
+                        <option>123</option>
+                    </select>
                 </div>
             </div><!-- panel -->
 

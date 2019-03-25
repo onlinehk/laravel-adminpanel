@@ -28,6 +28,7 @@ mix.sass('resources/assets/sass/frontend/app.scss', 'public/css/frontend.css')
     .js([
         'resources/assets/js/frontend/app.js',
         'resources/assets/js/plugin/sweetalert/sweetalert.min.js',
+        "public/js/select2/select2.min.js",
         'resources/assets/js/plugins.js'
     ], 'public/js/frontend.js')
     .js([

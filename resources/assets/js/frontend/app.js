@@ -19,3 +19,8 @@ Vue.component('example', require('../components/frontend/Example.vue'));
 const app = new Vue({
     el: '#app'
 });
+
+
+$(document).ready(function () {
+    $('select').select2();
+});
