@@ -8,6 +8,8 @@ Route::get('/', 'FrontendController@index')->name('index');
 Route::post('/get/states', 'FrontendController@getStates')->name('get.states');
 Route::post('/get/cities', 'FrontendController@getCities')->name('get.cities');
 
+Route::get('/hello', 'HelloController')->name('hello');
+
 /*
  * These frontend controllers require the user to be logged in
  * All route names are prefixed with 'frontend.'
