@@ -34,8 +34,8 @@
             ]); ?>
         </script>
         <?php
-            if(!empty($google_analytics)){
-                echo $google_analytics;
+            if(!empty(config('google_analytics'))){
+                echo config('google_analytics');
             }
         ?>
     </head>
